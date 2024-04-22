@@ -1,0 +1,40 @@
+/* There are defined styles for the timer.html
+to design the elements of the timer website linked in the main website.
+Style attributes and values are written in CSS. */
+
+body
+{
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  background-image: url("appa.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:soft-light;
+}
+
+header
+{
+    text-align: center;
+    color: rgba(255, 217, 0, 0.89);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+main
+{
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer
+{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}

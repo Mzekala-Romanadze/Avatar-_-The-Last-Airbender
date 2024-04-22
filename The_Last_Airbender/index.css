@@ -1,0 +1,68 @@
+/* There are defined styles for the index.html program - to design
+the elements of the main website.
+Style attributes and values are written in CSS.*/
+
+.centered
+{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(139, 1, 1);
+}
+
+.color
+{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+.appa
+{
+    img{
+        width: 1330px;
+        height: fit-content;
+        }
+}
+
+body
+{
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: center;
+  background-image: url("poster.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header
+{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    img{
+        width: 440px;
+        height: fit-content;
+        }
+}
+
+main
+{
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(172, 83, 0);
+}
+
+footer
+{
+    color: black;
+    font-size: medium;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    img{
+        width: fit-content;
+        height: 350px;
+        }
+}
